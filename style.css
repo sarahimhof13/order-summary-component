@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap");
+
+body {
+  margin: 0 auto;
+  font-family: "Red Hat Display", sans-serif;
+  background: url(images/pattern-background-mobile.svg) no-repeat #e0e8ff;
+  background-position: center top;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 900;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #717fa6;
+  line-height: 25px;
+}
+
+main {
+  width: 327px;
+  height: 567px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.illustration {
+  width: 327px;
+  height: 160px;
+  border-radius: 20px 20px 0 0;
+}
+
+.description {
+  margin-bottom: 24px;
+}
+
+.plan-selection {
+  background-color: #f7f9ff;
+  width: 279px;
+  height: 81px;
+  border-radius: 11px;
+  margin: 24px;
+}
+
+.selection-container {
+  margin: 16px;
+}
+
+.music-icon {
+  float: left;
+  margin-top: 16px;
+}
+
+.plan-details {
+  text-align: left;
+  margin-top: 17px;
+  margin-left: 20px;
+  float: left;
+}
+
+.plan-title {
+  font-size: 14px;
+  font-weight: 900;
+  color: #1f2e55;
+  margin: 0 3px;
+}
+
+.plan-price {
+  font-size: 14px;
+  margin: 0;
+}
+
+.plan-link {
+  font-size: 13px;
+  color: #382ae1;
+  font-weight: 700;
+  float: right;
+  margin-top: 33px;
+}
+
+.plan-link:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+
+.payment-btn {
+  background-color: #382ae1;
+  width: 279px;
+  height: 50px;
+  border-radius: 11px;
+  border: none;
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  margin-bottom: 24px;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+
+.payment-btn:hover {
+  background-color: #766cf1;
+}
+
+.cancel-btn {
+  color: #717fa6;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 900;
+  display: block;
+}
+
+.cancel-btn:hover {
+  color: #1f2e55;
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    background: url(images/pattern-background-desktop.svg) no-repeat #e0e8ff;
+    background-position: top center;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-top: 45px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  main {
+    width: 450px;
+    height: 697px;
+  }
+
+  .illustration {
+    width: 450px;
+    height: 220px;
+  }
+
+  .description {
+    width: 354px;
+    margin: 17px auto 20px auto;
+  }
+
+  .plan-selection {
+    width: 354px;
+    height: 98px;
+    margin: 20px auto 32px auto;
+  }
+
+  .selection-container {
+    margin: 25px;
+  }
+
+  .music-icon {
+    margin-top: 25px;
+  }
+
+  .plan-details {
+    margin-top: 25px;
+  }
+
+  .plan-title,
+  .plan-price {
+    font-size: 16px;
+  }
+
+  .plan-link {
+    font-size: 14px;
+    margin-top: 40px;
+  }
+
+  .payment-btn {
+    width: 354px;
+    margin-bottom: 32px;
+  }
+}
