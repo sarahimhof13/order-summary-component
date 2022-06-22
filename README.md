@@ -34,4 +34,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@sarahimhof13](https://www.frontendmentor.io/profile/sarahimhof13)
-- LinkedIn - [](https://www.linkedin.com/in/sarah-imhof)
+- LinkedIn - [@sarah-imhof](https://www.linkedin.com/in/sarah-imhof)
